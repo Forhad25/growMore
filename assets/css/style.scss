@@ -1,0 +1,81 @@
+ //============== variables =================// 
+
+$primary: #4a69bd;
+$secondary: #6a89cc;
+
+$navbar-toggler-focus-width: 0;
+
+
+
+
+ 
+//============== top header area css=================//
+
+#top-header{
+    h6{
+        i{
+            margin-right: 5px;
+        }
+    }
+
+    a{
+         margin-left: 5px;
+    }
+}
+
+//============== nav area css=================//
+
+.navbar {
+    button{
+        border: 0;
+        i{
+            font-size: 25px;
+        
+        }
+    }
+}
+
+ul.navbar-nav  {
+	li{
+        a{
+            &.active{
+                color: #ff7720 !important;
+            }
+        }
+    } 
+}
+
+
+//============== hero area css=================//
+
+#hero-area{
+    margin-top: 80px;
+}
+
+
+
+
+//============== service area css=================//
+
+#service-area {
+    i{
+        font-size: 20px;
+        color: $primary;
+        width: 50px;
+        height: 50px;
+        border: 2px solid $secondary;
+        border-radius: 50%;
+        line-height: 30px;
+        cursor: pointer;
+        transition: .3s;
+        &:hover{
+            background-color: $primary;
+            color: #fff;
+        }
+    }
+}
+
+
+
+@import 'bs-scss/bootstrap.scss';
+
